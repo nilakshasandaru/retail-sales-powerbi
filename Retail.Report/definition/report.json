@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.0.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU06",
+      "reportVersionAtImport": {
+        "visual": "1.8.0",
+        "page": "2.0.0",
+        "report": "2.0.0"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "RetailPlanning.json",
+      "type": "RegisteredResources",
+      "reportVersionAtImport": {
+        "visual": "1.8.0",
+        "page": "2.0.0",
+        "report": "2.0.0"
+      }
+    }
+  },
+  "resourcePackages": [
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "RetailPlanning.json",
+          "path": "RetailPlanning.json",
+          "type": "CustomTheme"
+        }
+      ]
+    }
+  ]
+}

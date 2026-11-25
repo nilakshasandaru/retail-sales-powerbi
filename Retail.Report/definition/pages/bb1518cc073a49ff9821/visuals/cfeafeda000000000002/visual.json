@@ -1,0 +1,123 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "cfeafeda000000000002",
+  "position": {
+    "x": 24,
+    "y": 540,
+    "width": 414,
+    "height": 160,
+    "z": 21,
+    "tabOrder": 21
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "READING THE MARGIN",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "11pt",
+                      "fontWeight": "bold",
+                      "color": "#007F79"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Gross profit \u00f7 revenue",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "18pt",
+                      "fontWeight": "bold",
+                      "color": "#17384B"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "The total weights each category by revenue.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "12pt",
+                      "fontWeight": "normal",
+                      "color": "#516977"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Source \u00b7 simulated FY 2025 data",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "10pt",
+                      "fontWeight": "normal",
+                      "color": "#516977"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#EDF4F3'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

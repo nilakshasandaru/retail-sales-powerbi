@@ -1,0 +1,15 @@
+{
+  "name": "Retail Planning",
+  "dataColors": [
+    "#007F79",
+    "#C07B30",
+    "#557698",
+    "#886F92"
+  ],
+  "foreground": "#17384B",
+  "background": "#FFFFFF",
+  "tableAccent": "#007F79",
+  "good": "#007F79",
+  "bad": "#B35440",
+  "neutral": "#C07B30"
+}
